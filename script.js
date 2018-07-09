@@ -21,7 +21,7 @@ function initTime(){
 	}
 
 	let hexColor=`#${hour}${minute}${second}`;
-	let timeStr=`${hour}:${minute}:${second} ${ampm}`;
+	let timeStr=`${hour}:${minute}:${second}`;
 	time.innerHTML=timeStr;
 	color.innerHTML=hexColor;
 	body.style.backgroundColor=hexColor;
@@ -29,3 +29,5 @@ function initTime(){
 }
 
 initTime();
+
+//  ${ampm}
